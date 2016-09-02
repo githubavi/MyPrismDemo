@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPrismDemo.Shell", "WpfApplication1\MyPrismDemo.Shell.csproj", "{B05FD14B-BFE8-47EA-995B-FC226C24C602}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{FA2EDFEF-3DB0-4406-B16E-AF25ADC207C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{1A3581CD-22A2-46D1-A383-CA257032FCEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPrismDemo.ModuleA", "ModuleA\MyPrismDemo.ModuleA.csproj", "{98BC2E0D-CF38-4F30-9660-792A990F418E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPrismDemo.ModuleB", "MyPrismDemo.ModuleB\MyPrismDemo.ModuleB.csproj", "{A181EACC-0A51-4736-9DA9-298DB8115905}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuleA", "ModuleA", "{FA0703BD-3D89-4297-97CB-99F3E0009BFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuleB", "ModuleB", "{70E03AB4-2B8D-416E-B714-9F3BFA858996}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{7E3A9447-BE1E-4918-8691-D84F6BC87C63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPrismDemo.Infrastructure", "MyPrismDemo.Infrastructure\MyPrismDemo.Infrastructure.csproj", "{F7D66E03-F11A-4C82-BAD7-CF7B24B36C8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B05FD14B-BFE8-47EA-995B-FC226C24C602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05FD14B-BFE8-47EA-995B-FC226C24C602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05FD14B-BFE8-47EA-995B-FC226C24C602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05FD14B-BFE8-47EA-995B-FC226C24C602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98BC2E0D-CF38-4F30-9660-792A990F418E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98BC2E0D-CF38-4F30-9660-792A990F418E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98BC2E0D-CF38-4F30-9660-792A990F418E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98BC2E0D-CF38-4F30-9660-792A990F418E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A181EACC-0A51-4736-9DA9-298DB8115905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A181EACC-0A51-4736-9DA9-298DB8115905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A181EACC-0A51-4736-9DA9-298DB8115905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A181EACC-0A51-4736-9DA9-298DB8115905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D66E03-F11A-4C82-BAD7-CF7B24B36C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D66E03-F11A-4C82-BAD7-CF7B24B36C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D66E03-F11A-4C82-BAD7-CF7B24B36C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D66E03-F11A-4C82-BAD7-CF7B24B36C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA0703BD-3D89-4297-97CB-99F3E0009BFB} = {FA2EDFEF-3DB0-4406-B16E-AF25ADC207C0}
+		{70E03AB4-2B8D-416E-B714-9F3BFA858996} = {FA2EDFEF-3DB0-4406-B16E-AF25ADC207C0}
+		{B05FD14B-BFE8-47EA-995B-FC226C24C602} = {1A3581CD-22A2-46D1-A383-CA257032FCEC}
+		{98BC2E0D-CF38-4F30-9660-792A990F418E} = {FA0703BD-3D89-4297-97CB-99F3E0009BFB}
+		{A181EACC-0A51-4736-9DA9-298DB8115905} = {70E03AB4-2B8D-416E-B714-9F3BFA858996}
+		{F7D66E03-F11A-4C82-BAD7-CF7B24B36C8C} = {7E3A9447-BE1E-4918-8691-D84F6BC87C63}
+	EndGlobalSection
+EndGlobal
